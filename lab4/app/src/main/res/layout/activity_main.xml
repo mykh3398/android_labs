@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Медіа плеєр"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/playLocalAudioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Відтворити локальне аудіо"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/playLocalVideoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Відтворити локальне відео"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/downloadMediaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завантажити медіа з Інтернету"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/openRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти до радіо"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

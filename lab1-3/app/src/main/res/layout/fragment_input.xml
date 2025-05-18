@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Оберіть факультет:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFaculties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton android:text="ФІОТ" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RadioButton android:text="ФІТ" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RadioButton android:text="ФПМ" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Оберіть курс:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton android:text="1 курс" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RadioButton android:text="2 курс" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RadioButton android:text="3 курс" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RadioButton android:text="4 курс" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txtSelectionResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Переглянути вибір"
+        android:layout_marginTop="16dp"
+        />
+</LinearLayout>
